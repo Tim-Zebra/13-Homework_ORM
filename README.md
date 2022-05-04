@@ -29,8 +29,8 @@ describe <br /> <br />
 * 
 * 
 ## Development Process:
-1. 
-2. 
+1. Created/Imported base files
+2. Interpreted/Applied pseudocode and base code from acceptance criteria
 3. See commits for more details
 
 ## Author:
