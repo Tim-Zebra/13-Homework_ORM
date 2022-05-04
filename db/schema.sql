@@ -1,10 +1,6 @@
-DROP DATABASE IF EXISTS name_db;
-CREATE DATABASE name_db;
+-- DROP DATABASE
+DROP DATABASE IF EXISTS ecommerce_db;
 
-USE name_db;
+-- CREATE DATABASE
+CREATE DATABASE ecommerce_db;
 
-CREATE TABLE table_name(
-  id INT NOT NULL,
-  product_name VARCHAR(30) NOT NULL,
-  category_name VARCHAR(30) NOT NULL
-);
