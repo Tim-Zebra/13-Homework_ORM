@@ -31,6 +31,8 @@ N/A
 ## Development Process:
 1. Created/Imported base files
 2. Interpreted/Applied pseudocode and base code from acceptance criteria
+3. Tested each aspect of CRUD before moving on to next CRUD or api
+4. 
 3. See commits for more details
 
 ## Author:
