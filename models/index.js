@@ -21,18 +21,21 @@ Category.hasMany(Product, {
 Product.belongsToMany(Tag, {
   through: {
     model: ProductTag,
-    unique: false
+    unique: false,
   },
-  as: 'tag'
+  as: 'tag',
+  foreignKey: "product_id",
 });
 
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
   through: {
     model: ProductTag,
-    unique: false
+    unique: false,
   },
-  as: 'product'
+  as: 'product',
+  foreignKey: "tag_id",
+
 });
 
 module.exports = {
