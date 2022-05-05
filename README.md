@@ -1,7 +1,7 @@
-# 
+# eCommerce Data Server
 
 ## Description
-describe <br /> <br />
+An ecommerence server designed to view, store, update, and remove products. All your products are associated by identifying tags and broard categories so you can easily view products in a category, see which products are associated with which tags, and many other combinations! <br /> <br />
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
  ## Table of Contents:
@@ -14,8 +14,9 @@ describe <br /> <br />
   **[Author](#author)** <br />
 
 ## How to Use:
-* 
-* 
+* Download, start your server, and interact using the app Insomnia <br />
+* Enter your server and api route into your insomnia console <br />
+* Choose which CRUD operation you would like to do (includes: get, post, put, delete) and execute
 
 ## Application Demos:
 ![Banner](./demos/) <br />
@@ -26,13 +27,13 @@ describe <br /> <br />
 N/A
 
 ## References:
-* 
-* 
+N/A
+
 ## Development Process:
 1. Created/Imported base files
 2. Interpreted/Applied pseudocode and base code from acceptance criteria
 3. Tested each aspect of CRUD before moving on to next CRUD or api
-4. 
+4. Worked top down: Category CRUD, then Tag CRUD, and finally Product CRUD
 3. See commits for more details
 
 ## Author:
