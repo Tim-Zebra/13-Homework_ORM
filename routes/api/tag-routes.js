@@ -22,7 +22,7 @@ router.get('/:id', async (req, res) => {
     const tag = await Tag.findByPk(req.params.id, {
       include: [ { model: Product, as: 'product' } ]
     });
-    
+
     if (!tag) {
       res.status(404).json({ message: 'No tag found with this id!' });
       return;
@@ -34,7 +34,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-  // create a new tag
+// create a new tag
 router.post('/', async (req, res) => {
   try {
     const tag = await Tag.create(req.body);
