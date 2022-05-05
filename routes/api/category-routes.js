@@ -45,7 +45,7 @@ router.post('/', async (req, res) => {
 
 // update a category by its `id` value
 router.put('/:id', async (req, res) => {
-  console.log('This happended', req);
+  console.log('req params', req.params);
   try {
     const category = await Category.update(
       // Denotes what will be replaced
@@ -53,7 +53,6 @@ router.put('/:id', async (req, res) => {
       // Denotes the location based on the /:id
       { where: req.params}
       );
-    console.log('This happended', category);
     if (!category) {
       res.status(404).json({ message: 'No category found with this id!' });
       return;
