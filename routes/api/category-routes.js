@@ -53,6 +53,7 @@ router.put('/:id', async (req, res) => {
       // Denotes the location based on the /:id
       { where: req.params}
       );
+      
     if (!category) {
       res.status(404).json({ message: 'No category found with this id!' });
       return;
