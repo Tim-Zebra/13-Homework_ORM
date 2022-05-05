@@ -65,7 +65,8 @@ router.put('/:id', async (req, res) => {
   }
 });
 
- // delete a category by its `id` value
+// delete a category by its `id` value
+// any foreignkeys associated will be set to null, eg. the associated product's category_id will be set to null
 router.delete('/:id', async (req, res) => {
   try {
     const category = await Category.destroy({
