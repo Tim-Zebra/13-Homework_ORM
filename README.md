@@ -21,7 +21,7 @@ An ecommerence server designed to view, store, update, and remove products. All 
 ## Application Demos:
 <img src="./demos/demo_Insomnia.png" alt="drawing" width="600" height="auto"/> <br />
 <img src="./demos/demo_database.gif" alt="drawing" width="600" height="auto"/> <br /><br />
-<a href="https://drive.google.com/file/d/1XFHbE2uV49ixkkqU6qa1dCNfnZy4x_B2/view">Video Demo</a>
+<font size="4"><a href="https://drive.google.com/file/d/1XFHbE2uV49ixkkqU6qa1dCNfnZy4x_B2/view">Video Demo</a></font> <br />
 
 ## Link to Deployed Page:
 N/A
