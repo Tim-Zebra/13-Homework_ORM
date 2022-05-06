@@ -19,8 +19,8 @@ An ecommerence server designed to view, store, update, and remove products. All 
 * Choose which CRUD operation you would like to do (includes: get, post, put, delete) and execute
 
 ## Application Demos:
-![Banner](./demos/) <br />
-![Banner](./demos/) <br /><br />
+<img src="./demos/demo_Insomnia.png" alt="drawing" width="600" height="auto"/> <br />
+<img src="./demos/demo_database.gif" alt="drawing" width="600" height="auto"/> <br /><br />
 <a href="https://drive.google.com/file/d/1XFHbE2uV49ixkkqU6qa1dCNfnZy4x_B2/view">Video Demo</a>
 
 ## Link to Deployed Page:
