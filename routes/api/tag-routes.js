@@ -54,7 +54,7 @@ router.put('/:id', async (req, res) => {
       { where: req.params }
       );
 
-    if (!category) {
+    if (!tag) {
       res.status(404).json({ message: 'No tag found with this id!' });
       return;
     }
@@ -77,7 +77,7 @@ router.delete('/:id', async (req, res) => {
       return;
     }
 
-    res.status(200).json(category);
+    res.status(200).json(tag);
   } catch (err) {
     res.status(500).json(err);
   }
